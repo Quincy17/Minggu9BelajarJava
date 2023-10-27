@@ -10,6 +10,9 @@ public class ArrayRataNilai20{
         for(int i=0;i<nilaiMhs.length;i++){
             System.out.print("Masukkan Nilai Mahasiswa Ke " +(i+1)+ " : ");
             nilaiMhs[i]= input.nextInt();
+            if(nilaiMhs[i]>70){
+                lulus++;
+            }
         }
         for(int i=0;i<nilaiMhs.length;i++){
             total+=nilaiMhs[i];
